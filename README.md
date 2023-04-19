@@ -30,7 +30,7 @@ To allow the app to run on iPhone. Navigate to the iPhone settings
 Settings > general > profiles and device management > Trust "Apple Development..."
 
 Now in the terminal run `security find-identity`
-Under Ploicy: X.509 Basic in the numbered list, you should see a long string in hex. You can use these developer profiles for patching our app
+Under Policy: X.509 Basic in the numbered list, you should see a long string in hex. You can use these developer profiles for patching our app
 
 pip3 install frida-tools
 pip3 install objection
